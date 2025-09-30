@@ -1,70 +1,116 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Helios Foundation</title>
-  <meta name="description" content="Student-run NGO accelerating access to renewable energy." />
+  <title>Helios Foundation — Student‑run NGO for Green Energy</title>
+  <meta name="description" content="Helios Foundation — a student-run NGO accelerating community access to renewable energy." />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  
   <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  
   <style>
-    .accent { color: #166534; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc; /* slate-50 */
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Sora', sans-serif;
+    }
   </style>
 </head>
-<body class="bg-white text-gray-900 antialiased">
-  <header class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between">
-    <div class="flex items-center gap-3">
-      <div class="w-10 h-10 rounded-full bg-yellow-400 flex items-center justify-center shadow-sm">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-          <circle cx="12" cy="12" r="4" stroke-width="1.5" />
+
+<body class="text-slate-800 antialiased">
+
+  <header class="max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <div class="w-14 h-14 rounded-full bg-yellow-400 flex items-center justify-center shadow-lg shadow-yellow-400/20">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M12 3v1m0 16v1m8.66-15.66l-.7.7M4.04 19.96l-.7.7M21 12h-1M4 12H3m15.66 8.66l-.7-.7M4.74 4.74l-.7-.7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <circle cx="12" cy="12" r="4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
       </div>
       <div>
-        <h1 class="text-lg font-semibold">Helios Foundation</h1>
-        <p class="text-xs text-gray-600">Student‑run · Renewable energy</p>
+        <h1 class="text-xl font-bold text-slate-900">Helios Foundation</h1>
+        <p class="text-sm text-slate-500">Student‑run NGO for Renewable Energy</p>
       </div>
     </div>
-    <nav class="hidden md:flex gap-4 text-sm">
-      <a href="#projects" class="hover:underline">Projects</a>
-      <a href="#volunteer" class="text-white bg-yellow-400 px-3 py-1 rounded">Volunteer</a>
-    </nav>
   </header>
 
-  <main class="max-w-4xl mx-auto px-6">
-    <section class="mt-6 grid md:grid-cols-2 gap-6 items-center">
-      <div>
-        <h2 class="text-2xl font-bold">Students powering a greener future</h2>
-        <p class="mt-3 text-gray-700">We run hands-on rooftop solar projects, workshops, and campus initiatives that cut energy use and train students.</p>
-        <div class="mt-4 flex gap-3">
-          <a href="#volunteer" class="px-4 py-2 bg-green-700 text-white rounded">Join</a>
-          <a href="#projects" class="px-4 py-2 border rounded">Projects</a>
+  <main class="max-w-5xl mx-auto px-6 py-12">
+
+    <section id="about">
+      <div class="text-center max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Pioneering Clean Energy at the Community Level</h2>
+        <p class="mt-4 text-lg text-slate-600">We are a student-led initiative focused on accelerating the adoption of clean energy, delivering significant environmental and economic benefits to rural communities.</p>
+      </div>
+      
+      <div class="mt-12 grid md:grid-cols-3 gap-8 text-center">
+
+        <div class="bg-white p-6 rounded-2xl shadow-lg shadow-slate-200/50 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+          <div class="mx-auto w-16 h-16 bg-green-100 text-green-700 rounded-full flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
+          </div>
+          <h3 class="mt-4 text-lg font-bold text-slate-900">Strategic Partnerships</h3>
+          <p class="mt-2 text-sm text-slate-600">Driving solar adoption under MNRE’s Solar Cities Programme, in partnership with Dawn2Dusk.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-lg shadow-slate-200/50 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+          <div class="mx-auto w-16 h-16 bg-green-100 text-green-700 rounded-full flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+          </div>
+          <h3 class="mt-4 text-lg font-bold text-slate-900">Lowered Utility Costs</h3>
+          <p class="mt-2 text-sm text-slate-600">Reduced energy costs for 50+ households by deploying 20+ grid-tied rooftop solar systems.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-lg shadow-slate-200/50 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+          <div class="mx-auto w-16 h-16 bg-green-100 text-green-700 rounded-full flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.653-.124-1.282-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.653.124-1.282.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+          </div>
+          <h3 class="mt-4 text-lg font-bold text-slate-900">Community Climate Action</h3>
+          <p class="mt-2 text-sm text-slate-600">Mobilised 150+ students for campaigns supporting India’s net-zero transition targets.</p>
         </div>
       </div>
-      <div>
-        <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Solar panels" class="w-full h-40 object-cover rounded-lg shadow-sm" />
+    </section>
+
+    <section id="contact" class="mt-20">
+      <div class="bg-gradient-to-r from-green-600 to-green-700 p-8 rounded-2xl shadow-2xl shadow-green-900/20 text-white">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h3 class="text-2xl font-bold">Get in Touch</h3>
+            <p class="mt-2 text-green-200">Have a question or want to collaborate? We’d love to hear from you.</p>
+            <div class="mt-6 flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+              <a href="mailto:helios.foundation.student@gmail.com" class="font-medium hover:underline">helios.foundation.student@gmail.com</a>
+            </div>
+          </div>
+          <div class="text-green-200">
+            <address class="not-italic border-l-2 border-green-500 pl-6">
+              <span class="font-bold text-white">Helios Foundation · Student HQ</span><br />
+              New Delhi, India<br /><br />
+              <span class="font-bold text-white">Founding Team</span><br />
+              - Harshit Sharma
+            </address>
+          </div>
+        </div>
       </div>
     </section>
-
-    <section id="projects" class="mt-8 bg-gray-50 p-4 rounded">
-      <h3 class="font-semibold">Highlighted project</h3>
-      <p class="text-sm text-gray-700 mt-2">Rooftop solar for college hostels — 12 kW installed, student-led installation and training.</p>
-    </section>
-
-    <section id="volunteer" class="mt-6 p-4 rounded">
-      <h3 class="font-semibold">Get involved</h3>
-      <p class="text-sm text-gray-700 mt-2">We welcome volunteers and campus chapters. Email us to join.</p>
-      <a href="mailto:helios.foundation.student@gmail.com" class="mt-3 inline-block text-sm underline">helios.foundation.student@gmail.com</a>
-    </section>
-
-    <footer class="mt-10 py-6 text-sm text-gray-600">
-      <div class="flex items-center justify-between">
-        <div>© <span id="year"></span> Helios Foundation</div>
-        <div>New Delhi · Student HQ</div>
-      </div>
-    </footer>
   </main>
 
+  <footer class="mt-12 py-8 bg-white border-t border-slate-200">
+    <div class="max-w-5xl mx-auto px-6 text-center text-sm text-slate-500">
+      <p>© <span id="year"></span> Helios Foundation — A Student‑run Non-Governmental Organization.</p>
+    </div>
+  </footer>
+
   <script>
+    // Set current year in the footer
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
